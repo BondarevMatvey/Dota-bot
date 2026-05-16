@@ -176,7 +176,7 @@ async def main():
 
         except Exception as e:
             print("ОШИБКА:", e)
-            await message.answer("⚠️ Произошла ошибка")
+            await message.answer(" Произошла ошибка")
 
     await dp.start_polling(bot)
 
